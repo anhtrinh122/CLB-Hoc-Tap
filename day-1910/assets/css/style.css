@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: normal;
+}
+
+body{
+    background-color: green;
+}
+div{
+    display: block;
+}
+
+
+.the1 {
+    text-align: center;
+
+}
+
+.the2 {
+    text-align: center;
+    margin-top: 17px;
+    
+}
+
+.the3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.the4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.the4 button {
+    background-color: green;
+    color: white;
+    width: 175px;
+    height: 35px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.the5{
+    background-color: white;
+    
+    padding: 60px;
+    margin: 90px 50px 90px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
