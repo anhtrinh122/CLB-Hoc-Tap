@@ -48,14 +48,16 @@ footer{
 
 .the5{
     background-color: white;
-    
-    padding: 0px;
     margin: 90px 50px 90px 50px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
+    margin-top: 300px;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding: 90px;
+    height: 400px;
 }
 
 a{
