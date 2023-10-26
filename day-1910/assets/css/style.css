@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: normal;
+    font-family: "poppins",sans-serif;
 }
 
 body{
@@ -49,8 +49,13 @@ footer{
 .the5{
     background-color: white;
     
-    padding: 60px;
+    padding: 0px;
     margin: 90px 50px 90px 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
 }
 
 a{
