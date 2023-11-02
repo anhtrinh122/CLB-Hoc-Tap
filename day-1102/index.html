@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/day-1102/style.css" />
+        <title>Grass</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            .line-clamp {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="/day-1102/index.html"
+                        ><img
+                            src="https://ngomanhson.github.io/CLB-HocTap/date-0211/assets/images/logo.png?fbclid=IwAR0cKJy20F0_niPYsLMfRBMClib4rNW3J2V2L7u1dmAnYTRJP_YM1qIIGvE"
+                            alt=""
+                    /></a>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kính Cận</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kính Râm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Lens</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="acount-logo">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            src="/assets/img/Untitled.png"
+                            class="d-block w-100"
+                            alt="..."
+                            style="height: 200px"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="/assets/img/Untitled.png"
+                            class="d-block w-100"
+                            alt="..."
+                            style="height: 200px"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="/assets/img/Untitled.png"
+                            class="d-block w-100"
+                            alt="..."
+                            style="height: 200px"
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 100%">
+                        <img
+                            src="/assets/img/nhung-mau-kinh-can-dep-cho-nu-2_ddd189e0a06a45ba93b63c531dc9228b_grande.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Kính Cận</h5>
+                            <p class="card-text line-clamp">
+                                Kính là một vật dụng được làm từ thủy tinh hoặc
+                                nhựa, có tác dụng giúp người đeo nhìn rõ hơn.
+                                Kính được chia thành nhiều loại khác nhau, bao
+                                gồm kính cận, kính viễn, kính lão, kính râm,
+                                kính bảo hộ,... Kính là vật dụng không thể thiếu
+                                đối với nhiều người, đặc biệt là những người có
+                                vấn đề về thị lực.
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-primary d-block w-100"
+                                        >Mua kính Cận</a
+                                    >
+                                </div>
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-danger d-block w-100"
+                                        >Tìm Hiểu Thêm</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 100%">
+                        <img
+                            src="/assets/img/images.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Kính Râm</h5>
+                            <p class="card-text line-clamp">
+                                Kính râm là một loại kính có tác dụng bảo vệ mắt
+                                khỏi ánh nắng mặt trời. Kính râm thường được làm
+                                từ nhựa hoặc thủy tinh, có màu sắc sẫm để ngăn
+                                chặn ánh sáng mặt trời chiếu vào mắt. Kính râm
+                                có nhiều loại khác nhau, bao gồm kính râm đơn
+                                sắc, kính râm phản quang, kính râm polarized,...
+                                Kính râm là vật dụng cần thiết để bảo vệ mắt
+                                khỏi tác hại của ánh nắng mặt trời, đặc biệt là
+                                vào mùa hè.
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-primary d-block w-100"
+                                        >Mua kính râm</a
+                                    >
+                                </div>
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-danger d-block w-100"
+                                        >Tìm Hiểu Thêm</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 100%">
+                        <img
+                            src="/assets/img/nhung-mau-kinh-can-dep-cho-nu-2_ddd189e0a06a45ba93b63c531dc9228b_grande.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Lens</h5>
+                            <p class="card-text line-clamp">
+                                Lens là một thiết bị quang học có tác dụng thu
+                                nhận và hội tụ ánh sáng từ vật thể, sau đó
+                                truyền ánh sáng này đến cảm biến ảnh của máy
+                                ảnh. Lens có nhiều loại khác nhau, mỗi loại có
+                                một đặc điểm riêng, phù hợp với nhu cầu chụp ảnh
+                                của người dùng.
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-primary d-block w-100"
+                                        >Mua Lens</a
+                                    >
+                                </div>
+                                <div class="col-6">
+                                    <a
+                                        href="/day-1102/kinhcan.html"
+                                        class="btn btn-danger d-block w-100"
+                                        >Tìm Hiểu Thêm</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <p>He thong, Cua hang:</p>
+                    <p>Cua hang 1: Ton That Thuyet</p>
+                    <p></p>
+                </div>
+                <div class="col-4">
+                    <p>Anh</p>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
